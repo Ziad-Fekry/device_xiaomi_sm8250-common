@@ -47,6 +47,9 @@ persist.vendor.color.matrix=2
 debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=20
 
+# Disable blur on app launch
+ro.launcher.blur.appLaunch=0
+
 # Fwk detect
 ro.vendor.qti.va_aosp.support=1
 
