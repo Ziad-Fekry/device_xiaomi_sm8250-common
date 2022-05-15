@@ -264,6 +264,11 @@ PRODUCT_PACKAGES += \
     libldacBT_enc \
     libldacBT_abr
 
+# Cgroup and task_profiles
+PRODUCT_COPY_FILES += \
+    system/core/libprocessgroup/profiles/cgroups_30.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json \
+    system/core/libprocessgroup/profiles/task_profiles_30.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json
+
 # Camera
 PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0 \
