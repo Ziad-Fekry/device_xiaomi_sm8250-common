@@ -133,7 +133,6 @@ PRODUCT_PACKAGES += \
 
 # Audio Daemon
 PRODUCT_PACKAGES += audioadsprpcd
-PRODUCT_PACKAGES += vendor.qti.audio-adsprpc-service.rc
 
 # Audio configs
 PRODUCT_COPY_FILES += \
@@ -456,7 +455,6 @@ PRODUCT_PACKAGES += \
     init.class_main.sh \
     init.mdm.sh \
     init.mi.btmac.sh \
-    init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
     init.qcom.sh \
     init.qti.dcvs.sh
