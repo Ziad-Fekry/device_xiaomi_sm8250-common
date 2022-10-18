@@ -74,6 +74,9 @@ ro.netflix.bsp_rev=Q8250-19134-1
 # Notch Overlay
 ro.miui.notch=1
 
+# Pre-Rendering
+ro.vendor.perf.scroll_opt=true
+
 # Radio
 persist.vendor.radio.report_codec=1
 persist.radio.NO_STAPA=1
