@@ -172,7 +172,7 @@ debug.hwui.target_cpu_time_percent=30
 persist.vendor.dpm.loglevel=0
 
 # Dolby
-ro.vendor.dolby.dax.version=DAX3_3.6.1.6_r1
+ro.vendor.audio.dolby.dax.version=DAX3_3.6.1.6_r1
 vendor.audio.dolby.ds2.enabled=true
 vendor.audio.dolby.ds2.hardbypass=false
 
