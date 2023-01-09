@@ -134,6 +134,10 @@ PRODUCT_PACKAGES += \
     libvolumelistener \
     sound_trigger.primary.kona
 
+# Audio Daemon
+PRODUCT_PACKAGES += audioadsprpcd
+PRODUCT_PACKAGES += vendor.qti.audio-adsprpc-service.rc
+
 # Audio configs
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
