@@ -8,6 +8,20 @@ dalvik.vm.image-dex2oat-cpu-set=0,1,2,3,4,5,6,7
 dalvik.vm.image-dex2oat-filter=everything
 dalvik.vm.image-dex2oat-threads=8
 
+# Audio
+audio.offload.buffer.size.kb=32
+audio.offload.gapless.enabled=true
+persist.audio.button_jack.profile=volume
+persist.audio.button_jack.switch=0
+ro.audio.usb.period_us=20375
+af.resampler.quality=7
+ro.audio.resampler.psd.stopband=132
+ro.audio.resampler.psd.halflength=960
+ro.audio.resampler.psd.cutoff_percent=98
+ro.audio.resampler.psd.tbwcheat=0
+tunnel.audio.encode=true
+persist.bluetooth.sbc_hd_higher_bitrate=1
+
 # Blur
 ro.surface_flinger.supports_background_blur=1
 ro.sf.blurs_are_expensive=1
@@ -34,6 +48,7 @@ ro.vendor.qti.va_aosp.support=1
 # Graphics
 debug.renderengine.backend=skiaglthreaded
 debug.hwui.skia_atrace_enabled=false
+ro.config.avoid_gfx_accel=true
 
 # IMS
 persist.dbg.volte_avail_ovr=1
@@ -54,3 +69,7 @@ ro.netflix.bsp_rev=Q8250-19134-1
 
 # Radio
 persist.vendor.radio.report_codec=1
+persist.radio.NO_STAPA=1
+persist.radio.VT_HYBRID_ENABLE=1
+persist.radio.dynamic_sar=false
+rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
