@@ -166,9 +166,6 @@ PRODUCT_PACKAGES += \
     libvolumelistener \
     sound_trigger.primary.kona
 
-# Audio Daemon
-PRODUCT_PACKAGES += audioadsprpcd
-PRODUCT_PACKAGES += vendor.qti.audio-adsprpc-service.rc
 
 # Audio Alsa Extensions
 PRODUCT_PACKAGES += \
@@ -241,14 +238,7 @@ PRODUCT_PACKAGES += \
 # Bluetooth Library Deps
 PRODUCT_PACKAGES += \
     audio.bluetooth.default \
-    libbluetooth_audio_session \
-    libbthost_if.vendor \
-    libldacBT_bco \
-    libldacBT_bco.vendor \
-    liblhdc \
-    liblhdcBT_enc \
-    liblhdcdec \
-    liblhdcBT_dec
+    libbluetooth_audio_session 
 
 # Bluetooth Ant+ Hal Deps
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
@@ -321,7 +311,6 @@ PRODUCT_PACKAGES += \
     libsdmcore \
     libsdmutils \
     libtinyxml \
-    libtinyxml.vendor \
     extphonelib \
     extphonelib-product \
     extphonelib.xml \
