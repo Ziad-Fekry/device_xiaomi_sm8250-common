@@ -433,4 +433,7 @@
     <string name="config_sysGPULoad">"/sys/kernel/gpu/gpu_busy"</string>
     <integer name="config_sysCPUTempMultiplier">1000</integer>
     <integer name="config_sysBatteryTempMultiplier">10</integer>
+
+    <!-- QTI Boost Framework - AOSP Version -->
+    <bool name="config_supportsBoostFramework">true</bool>
 </resources>
